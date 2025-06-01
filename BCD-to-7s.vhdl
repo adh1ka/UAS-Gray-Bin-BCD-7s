@@ -29,7 +29,7 @@ begin
 			when "1100" => seg <= "0110001";--c
 			when "1101" => seg <= "1000010";--d
 			when "1110" => seg <= "0110000";--E
-			when "1111" => seg <= "0111011";--9
+			when "1111" => seg <= "0111011";--F
 			when others => seg <= "1111111";-- default off
 		end case;
 	end process;
