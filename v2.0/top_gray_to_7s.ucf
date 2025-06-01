@@ -1,18 +1,15 @@
-# INPUT SWITCHES (SW0 - SW3)
-NET "gray_in[0]" LOC = "P38";  # SW0
-NET "gray_in[1]" LOC = "P39";  # SW1
-NET "gray_in[2]" LOC = "P40";  # SW2
-NET "gray_in[3]" LOC = "P41";  # SW3
+CONFIG VCCAUX = "3.3";
+NET "*" IOSTANDARD = LVCMOS33;
 
-# OUTPUT 7-SEGMENT DISPLAY (a-g)
-NET "seg_out[0]" LOC = "P26";  # a
-NET "seg_out[1]" LOC = "P27";  # b
-NET "seg_out[2]" LOC = "P28";  # c
-NET "seg_out[3]" LOC = "P29";  # d
-NET "seg_out[4]" LOC = "P30";  # e
-NET "seg_out[5]" LOC = "P31";  # f
-NET "seg_out[6]" LOC = "P32";  # g
+NET gray<0> LOC = "K13";
+NET gray<1> LOC = "K14";
+NET gray<2> LOC = "J13";
+NET gray<3> LOC = "J14";
 
-# Set all I/O as LVCMOS33
-CONFIG VCCAUX = "3.3" ;
-NET "*" IOSTANDARD = LVCMOS33 ;
+NET seg<0> LOC = "E14";
+NET seg<1> LOC = "G13";
+NET seg<2> LOC = "N15";
+NET seg<3> LOC = "P15";
+NET seg<4> LOC = "R16";
+NET seg<5> LOC = "F13";
+NET seg<6> LOC = "N16";
