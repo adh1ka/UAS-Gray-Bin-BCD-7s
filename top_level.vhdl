@@ -18,14 +18,14 @@ begin
         );
 
     -- Instansiasi Modul 2
-    u2: entity work.bin_to_bcd
+    u2: entity work.bin_to_BCD
         port map (
             bin_in => binary_out,
             bcd_out => bcd_out
         );
 
     -- Instansiasi Modul 3
-    u3: entity work.bcd_to_7seg
+    u3: entity work.BCD_to_7s
         port map (
             bcd_in => bcd_out,
             seg_out => SEG
