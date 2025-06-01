@@ -12,13 +12,13 @@ architecture Structural of top_gray_to_7s is
     signal bin_signal : STD_LOGIC_VECTOR(3 downto 0);
 begin
   
-    U1: entity work.src_gray_to_bin
+    U1: entity work.gray_to_bin
         port map (
             gray => gray_in,
             bin  => bin_signal
         );
       
-    U2: entity work.src_bin_to_7s
+    U2: entity work.bin_to_7seg
         port map (
             bin => bin_signal,
             seg => seg_out
