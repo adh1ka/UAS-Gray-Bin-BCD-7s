@@ -21,3 +21,5 @@ file : src_bin_to_bcd.vhdl
 (V) Done Checked & Worked
 ![Pasted image 20250601161827](https://github.com/user-attachments/assets/f8470997-f8ba-4c7e-ae99-7481ec511873)
 ![Pasted image 20250601161839](https://github.com/user-attachments/assets/e2f85840-72cc-4fe3-9f15-86487c438be2)
+
+## V2.0 -> Without BCD -> Done tested and worked on Spartan3 Hardware
