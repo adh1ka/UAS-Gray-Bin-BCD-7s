@@ -1,15 +1,17 @@
-CONFIG VCCAUX = "3.3";
-NET "*" IOSTANDARD = LVCMOS33;
+NET "gray_in<3>" LOC = K13;
+NET "gray_in<2>" LOC = K14;
+NET "gray_in<1>" LOC = J13;
+NET "gray_in<0>" LOC = J14;
 
-NET gray<0> LOC = "K13";
-NET gray<1> LOC = "K14";
-NET gray<2> LOC = "J13";
-NET gray<3> LOC = "J14";
+NET "seg_out<6>" LOC = E14;   # Segment A
+NET "seg_out<5>" LOC = G13;   # Segment B
+NET "seg_out<4>" LOC = N15;   # Segment C
+NET "seg_out<3>" LOC = P15;   # Segment D
+NET "seg_out<2>" LOC = R16;   # Segment E
+NET "seg_out<1>" LOC = F13;   # Segment F
+NET "seg_out<0>" LOC = N16;   # Segment G
 
-NET seg<0> LOC = "E14";
-NET seg<1> LOC = "G13";
-NET seg<2> LOC = "N15";
-NET seg<3> LOC = "P15";
-NET seg<4> LOC = "R16";
-NET seg<5> LOC = "F13";
-NET seg<6> LOC = "N16";
+NET "anode[3]" LOC = D14;
+NET "anode[2]" LOC = G14;
+NET "anode[1]" LOC = F14;
+NET "anode[0]" LOC = E13;
